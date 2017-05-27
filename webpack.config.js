@@ -37,8 +37,7 @@ if (isProduction) {
   ])
 }
 
-
-const mainFilePath = './src/app.js'
+const mainFilePath = ['babel-polyfill', './src/app.js']
 
 const webpackConfig = {
   entry: { application: mainFilePath },

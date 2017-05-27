@@ -7,3 +7,5 @@ Try `yarn run prod` for production builds
 Try `yarn run dev` for development builds
 
 `open index.html` to test the app
+
+For those on macOS just do `brew install phantomjs` and `phantomjs ./dist/application.js` if you want to reproduce the issue. Seems to happen on IE11 and phantomjs alike.
