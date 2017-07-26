@@ -5,6 +5,8 @@ if (!document.getElementById('content')) {
   document.body.appendChild(div)
 }
 
+require('babel-polyfill')
+
 import React from 'react'
 import { render } from 'react-dom'
 
